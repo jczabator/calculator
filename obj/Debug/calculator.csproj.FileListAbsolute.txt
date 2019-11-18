@@ -1,0 +1,9 @@
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\bin\Debug\calculator.exe.config
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\obj\Debug\calculator.Form1.resources
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\bin\Debug\calculator.exe
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\bin\Debug\calculator.pdb
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\obj\Debug\calculator.exe
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\obj\Debug\calculator.pdb
+c:\users\marlena\documents\visual studio 2012\Projects\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
