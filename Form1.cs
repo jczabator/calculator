@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace calculator
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form //Change Form1 naming to sth like CalculatorForm etc
     {
 
-        public string _value;
-        public string _value1, _totNumber="0";
-        double _value3,_value4;
+        public string _value; //please check C# naming conventions https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+        public string _value1, _totNumber="0";  //please change names of value1, value... to sth more readable. What does value4 means? It is easier if we read for example field named equationResult
+        double _value3,_value4;  //be aware that here is used default access modifier. Adjust modifiers. For example if field is used only in the scope of current class then it should be private.
         bool _plus_click, _minus_click, _div_click, _multiple_click;
         bool _sqr_click, _sqrt_click, _sin_click, _cos_click;
         public  string equation;
@@ -34,7 +34,7 @@ namespace calculator
         private void Button(object sender, EventArgs e)
         {
 
-           //  double value1;
+           //  double value1; //I see comented out code. Is this line needed?
 
             Button button = (Button)sender;
             if (textBox1.Text == "ZERO")
@@ -63,8 +63,8 @@ namespace calculator
         {
             if (_value4 == 0.0)
             {
-                throw new NullReferenceException(" value is eq. 0");
-            }
+                throw new NullReferenceException(" value is eq. 0"); //Use other exception https://docs.microsoft.com/pl-pl/dotnet/api/system.dividebyzeroexception?view=netframework-4.8
+            }                                                        //Please read about NullReferenceException
         }
         private void solve(object sender, EventArgs e)
         {
@@ -139,7 +139,7 @@ namespace calculator
             label1.Text = equation;
             textBox1.Text = _value4.ToString() ;
 
-            _plus_click = false;
+            _plus_click = false; // you can use enum variable to store current operation instead having many boolean fields
             _minus_click = false;
             _multiple_click = false;
             _div_click = false;
